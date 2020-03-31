@@ -31,7 +31,7 @@ class Index extends React.Component {
       </div>
 
       <div className="container bg-white shadow-p4h">
-      <div class="row">
+      <div className="row">
         <div className="col p-5">
           <section className="py-4">
             <h2>Hintergrund</h2>
