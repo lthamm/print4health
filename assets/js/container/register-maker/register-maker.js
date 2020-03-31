@@ -25,9 +25,9 @@ const RegistrationForm = (props) => {
   };
 
   return (
-    <div className="container">
+    <div className="container bg-white shadow-p4h p-4">
       <div className="row">
-        <div className="col-md-8 offset-md-2">
+        <div className="col">
           <h1>Maker Registrierung</h1>
           <Alert variant="info" className="mt-3">
             Um Bedarf anzumelden, müsst ihr als <strong>Krankenhaus, Arzt, soziale Einrichtung oder

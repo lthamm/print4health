@@ -90,12 +90,15 @@ h1, h2, h3, h4{
 
 .Header {
     background-color: $gray-bg;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
 
     &__logo {
         display: block;
         margin: 0 auto;
-        height: 122.5px;
-        width: 122.5px;
+        height: 90px;
+        width: 90px;
     }
 
     &__navbar {
