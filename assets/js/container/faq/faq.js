@@ -10,7 +10,7 @@ class Faq extends React.Component {
 
   render() {
     return (
-      <div className="container Faq">
+      <div className="container Faq bg-white shadow-p4h p-4">
         <div className="row">
           <div className="col">
             <h1>FAQ - Hier findet Ihr Antworten auf Eure Fragen.</h1>

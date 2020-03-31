@@ -3,7 +3,7 @@ import React from 'react';
 class DataPrivacyStatement extends React.Component {
   render() {
     return (
-      <div className="container imprint">
+      <div className="container imprint bg-white shadow-p4h p-4">
         <div className="row">
           <div className="col">
             <h1>Datenschutzerklärung</h1>

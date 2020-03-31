@@ -10,7 +10,7 @@ class Imprint extends React.Component {
 
   render() {
     return (
-      <div className="container imprint">
+      <div className="container imprint bg-white shadow-p4h p-4">
         <div className="row">
           <div className="col">
             <h1>Impressum</h1>

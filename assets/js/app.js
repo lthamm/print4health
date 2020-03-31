@@ -114,12 +114,12 @@ class App extends React.Component {
         }}
       >
         <Router>
-          <header className="Header">
-            <Link to="/">
-              <img src={logo} alt="Logo" className="Header__logo" />
-            </Link>
-            <Navbar expand="lg">
+          <header className="Header mb-2">
+            <Navbar expand="lg" className="shadow-p4h Header__navbar">
               <div className="container font-weight-bold text-uppercase">
+              <Link to="/" className="navbar-brand">
+                <img src={logo} alt="Logo" className="Header__logo img-fluid" />
+              </Link>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -139,6 +139,7 @@ class App extends React.Component {
               </div>
             </Navbar>
           </header>
+
           {initalUserCheck &&
             <main className="container py-5">
               <DismissableAlert message={alertMessage} variant={alertClass} />

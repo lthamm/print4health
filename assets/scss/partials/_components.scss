@@ -1,3 +1,47 @@
+body{
+  background-color: $light-grey;
+}
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4c4b5c;
+}
+
+.text-primary{
+  color: $dark-contrast !important;
+}
+
+.shadow-p4h{
+    box-shadow: 0 6px 10px rgba(71, 76, 150,.03), 0 1px 3px rgba(126, 129, 171,.3), 0 8px 12px rgba(214, 217, 255,.1);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Ubuntu' !important;
+    color: $dark-contrast;
+}
+
+/* BUTTONS */
+
+.btn-p4h{
+    background-color: #7079F7;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+.btn-p4h:hover{
+    transition: all .5s ease-in-out;
+    transform: translateY(-.2em);
+    color: #fff;
+}
+
+.btn-outline-p4h{
+    border: 1px solid #FCFEFE;
+    color: #FCFEFE;
+}
+
+
 .ThingListCard {
     overflow: hidden;
     transition: transform 0.2s;
@@ -50,10 +94,15 @@
     &__logo {
         display: block;
         margin: 0 auto;
-        height: 175px;
-        width: 175px;
+        height: 122.5px;
+        width: 122.5px;
+    }
+
+    &__navbar {
+      font-size: 1.2em;
     }
 }
+
 
 .Footer {
     background-color: $gray-bg;
